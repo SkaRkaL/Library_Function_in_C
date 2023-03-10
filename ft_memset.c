@@ -6,6 +6,6 @@ void *ft_memset(void *b, int c, size_t n)
 
 	i = 0;
 	while (i < n)
-		*((char *)b + i++) = c; /* |-> 23:  explicit | implicit */
+		*((char *)b + i++) = c; /* |-> explicit cast */
 	return (b);
 }
