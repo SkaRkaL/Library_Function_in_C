@@ -1,20 +1,13 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: sakarkal <sakarkal@student.42.fr>          +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/10/15 23:48:45 by sakarkal          #+#    #+#              #
-#    Updated: 2023/03/10 21:20:59 by sakarkal         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
+# run "make" in terminal
 
-NAME = libft.a
+NAME = library_ft.a
+
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
+
 RM = rm -f
 AR = ar rc
+
 SRC =	ft_atoi.c \
 	ft_bzero.c \
 	ft_calloc.c \
